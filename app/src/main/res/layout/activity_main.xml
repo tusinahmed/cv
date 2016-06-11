@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.tusin.cv.MainActivity">
+
+    <ImageView
+        android:layout_width="200px"
+        android:layout_height="300px"
+        android:src="@drawable/my"
+        android:id="@+id/image"
+        android:layout_alignParentRight="true"
+        />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Resume Of
+MD. ASHRAFUL ISLAM"
+    android:textSize="7pt"
+
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image"
+        android:text="Personal details"
+        android:textSize="7pt"
+        android:textColor="#FBFBFB"
+        android:background="#020214"
+        android:id="@+id/pd"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Father’s Name          :  Md. Shafiqul islam Sarker
+Mother’s Name         :  Monoara Begum
+Date of Birth              :  30/12/1994
+Nationality                 :  Bangladeshi
+Religion                     :  Islam(Sunni)
+Sex		                        : Male
+"
+android:layout_below="@+id/pd"
+        android:id="@+id/pds"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pds"
+        android:text="Education"
+        android:textColor="#FBFBFB"
+        android:background="#020214"
+        android:id="@+id/ed"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ssc:gpa-4.75
+ hsc:gpa:4.00
+ runing:bsc in gub
+        "
+        android:layout_below="@+id/ed"
+        android:id="@+id/eds"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reference"
+        android:layout_below="@+id/eds"
+        android:background="#020214"
+        android:textColor="#FBFBFB"
+        android:id="@+id/re"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Md. Easin Ali
+In – Charge (Electrical Technology) AITVET.
+Mobile +8801558427713
+        "
+android:layout_below="@+id/re"
+        android:id="@+id/ali"
+        />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/ali"
+    android:text="sing"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="50dp"
+    android:id="@+id/sing"
+
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Md. Easin Ali
+In – Charge (Electrical Technology) AITVET.
+Mobile +8801558427713"
+        android:layout_below="@+id/sing"
+        />
+</RelativeLayout>
